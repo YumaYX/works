@@ -50,7 +50,7 @@ rbenvで管理するRubyのバージョンをmacOSのメニューバーに表示
 - 成果物: **macOS App**
 - カテゴリ: **ユーティリティ**
 
-# [Y803](https://github.com/YumaYX/Y803)
+## [Y803](https://github.com/YumaYX/Y803)
 
 再生中の音楽の曲名、アーティスト名をMacのメニューバーに表示するアプリケーション、標準ミュージックアプリ、Spotifyに対応
 
@@ -62,7 +62,7 @@ rbenvで管理するRubyのバージョンをmacOSのメニューバーに表示
 
 # その他
 
-# [docs](https://yumayx.github.io/docs/)
+## [docs](https://yumayx.github.io/docs/)
 
 開発用ドキュメント、チートシート、UNIXコマンド集
 
