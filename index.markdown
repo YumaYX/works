@@ -14,3 +14,18 @@ Red Hat Enterprise Linux派生ディストリビューションの設定集、�
 - 成果物: **HTML**
 - カテゴリ: **リファレンス**
 
+# プログラミング
+
+## [YS1](https://yumayx.github.io/YS1/)
+
+コンピューターを操作するための基本的なAPI、コンセプトデザイン
+
+```ruby
+irb(main):001> require 'ys1'
+=> true
+irb(main):002> 
+```
+
+- 言語: **Ruby**
+- 成果物: **RubyGem**
+- カテゴリ: **効率化**
