@@ -38,6 +38,28 @@ irb(main):002>
 - 成果物: **RubyGem**
 - カテゴリ: **効率化**
 
+# アプリケーション
+
+## [RubyIconMenuBar](https://github.com/YumaYX/RubyIconMenuBar)
+
+rbenvで管理するRubyのバージョンをmacOSのメニューバーに表示するアプリケーション
+
+![RubyIconMenuBar](https://github.com/YumaYX/RubyIconMenuBar/blob/main/sample.png?raw=true)
+
+- 言語: **Swift**
+- 成果物: **macOS App**
+- カテゴリ: **ユーティリティ**
+
+# [Y803](https://github.com/YumaYX/Y803)
+
+再生中の音楽の曲名、アーティスト名をMacのメニューバーに表示するアプリケーション、標準ミュージックアプリ、Spotifyに対応
+
+![Y803](https://github.com/YumaYX/Y803/blob/main/image/ScreenShot.png?raw=true)
+
+- 言語: **Swift**
+- 成果物: **macOS App**
+- カテゴリ: **ユーティリティ**
+
 # その他
 
 # [docs](https://yumayx.github.io/docs/)
