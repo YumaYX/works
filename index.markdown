@@ -8,7 +8,7 @@ layout: default
 
 ## [Workshop](https://yumayx.github.io/Workshop/)
 
-Red Hat Enterprise Linux派生ディストリビューションの設定集、検証の記録、コマンド集
+Red Hat Enterprise Linux派生ディストリビューションの設定集、検証の記録、UNIXコマンド集
 
 - 言語: 日本語、**UNIXシェル**
 - 成果物: **HTML**
@@ -64,7 +64,7 @@ rbenvで管理するRubyのバージョンをmacOSのメニューバーに表示
 
 # [docs](https://yumayx.github.io/docs/)
 
-開発用ドキュメント、チートシート
+開発用ドキュメント、チートシート、UNIXコマンド集
 
 - 言語: 日本語/英語
 - 成果物: **HTML**
