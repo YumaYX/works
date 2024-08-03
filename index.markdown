@@ -14,6 +14,14 @@ Red Hat Enterprise Linux派生ディストリビューションの設定集、�
 - 成果物: **HTML**
 - カテゴリ: **リファレンス**
 
+## [init](https://github.com/YumaYX/init)
+
+Red Hat Enterprise Linux派生ディストリビューションのAnsibleレシピ
+
+- 言語: **YAML**
+- 成果物: **Ansibleレシピ**
+- カテゴリ: **ユーティリティ**
+
 # プログラミング
 
 ## [YS1](https://yumayx.github.io/YS1/)
@@ -29,4 +37,3 @@ irb(main):002>
 - 言語: **Ruby**
 - 成果物: **RubyGem**
 - カテゴリ: **効率化**
-
