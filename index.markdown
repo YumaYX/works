@@ -10,7 +10,7 @@ layout: default
 
 Red Hat Enterprise Linux派生ディストリビューションの設定集、検証の記録、UNIXコマンド集
 
-ユーザー作成から、ファイルサーバー構築、仮想化(コンテナ、KVM、Vagrant)操作、システムバックアップ、リストアなどのシステム管理方法を検証
+ユーザー作成から、ファイルサーバー構築、仮想化(コンテナ、KVM、Vagrant)操作、システムバックアップ、リストアなどのシステム管理方法を収録
 
 - 言語: 日本語、**UNIXシェル**
 - 成果物: **HTML**
@@ -18,9 +18,9 @@ Red Hat Enterprise Linux派生ディストリビューションの設定集、�
 
 ## [init](https://github.com/YumaYX/init)
 
-Red Hat Enterprise Linux派生ディストリビューションのAnsibleレシピ
+Red Hat Enterprise Linux派生ディストリビューションのAnsibleレシピ：自動でインフラストラクチャの構築を行う
 
-ドットファイルの用意、作業ディレクトリ構築、PXEサーバー(Kickstart使用)の構築、Rubyインストール、Serverspecによるインフラストラクチャのテストなどを収録
+ドットファイル用意、作業ディレクトリ構築、PXEサーバー(Kickstart使用)構築、Rubyインストール、Serverspecによるインフラストラクチャテストなどを収録
 
 - 言語: **YAML**
 - 成果物: **Ansibleレシピ**
@@ -32,7 +32,7 @@ Red Hat Enterprise Linux派生ディストリビューションのAnsibleレシ�
 
 コンピューターを操作する上での基本的なAPI、コンセプト
 
-プログラミング言語Rubyを使用して、テキスト操作などの情報処理を自動化する。デジタル化の第一歩であり、基本的なコンセプトモデル
+プログラミング言語Rubyを使用して、テキスト操作などの基本的な情報処理を自動化する。デジタル化の第一歩
 
 ```ruby
 irb(main):001> require 'ys1'
@@ -58,7 +58,9 @@ rbenvで管理するRubyのバージョンをmacOSのメニューバーに表示
 
 ## [Y803](https://github.com/YumaYX/Y803)
 
-再生中の音楽の曲名、アーティスト名をMacのメニューバーに表示するアプリケーション、標準ミュージックアプリ、Spotifyに対応
+再生中の音楽の曲名、アーティスト名をMacのメニューバーに表示するアプリケーション
+
+標準ミュージックアプリ、Spotifyに対応
 
 ![Y803](https://github.com/YumaYX/Y803/blob/main/image/ScreenShot.png?raw=true)
 
