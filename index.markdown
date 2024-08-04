@@ -20,7 +20,7 @@ Red Hat Enterprise Linux派生ディストリビューションの設定集、�
 
 Red Hat Enterprise Linux派生ディストリビューションのAnsibleレシピ：自動でインフラストラクチャの構築を行う
 
-ドットファイル用意、作業ディレクトリ構築、PXEサーバー(Kickstart使用)構築、Rubyインストール、Serverspecによるインフラストラクチャテストなどを収録
+ドットファイルの用意、作業ディレクトリの構築、PXEサーバー(Kickstart使用)の構築、Rubyのインストール、Serverspecによるインフラストラクチャテストなどを収録
 
 - 言語: **YAML**
 - 成果物: **Ansibleレシピ**
