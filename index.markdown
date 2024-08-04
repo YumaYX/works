@@ -10,6 +10,8 @@ layout: default
 
 Red Hat Enterprise Linux派生ディストリビューションの設定集、検証の記録、UNIXコマンド集
 
+ユーザー作成から、ファイルサーバー、仮想化、システムバックアップ、リストアなどを検証済み
+
 - 言語: 日本語、**UNIXシェル**
 - 成果物: **HTML**
 - カテゴリ: **リファレンス**
@@ -17,6 +19,8 @@ Red Hat Enterprise Linux派生ディストリビューションの設定集、�
 ## [init](https://github.com/YumaYX/init)
 
 Red Hat Enterprise Linux派生ディストリビューションのAnsibleレシピ
+
+PXE、Kickstartサーバーの構築、Rubyインストール、Serverspecによるインフラ検証を収録
 
 - 言語: **YAML**
 - 成果物: **Ansibleレシピ**
