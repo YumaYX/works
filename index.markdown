@@ -20,7 +20,7 @@ Red Hat Enterprise Linux派生ディストリビューションの設定集、�
 
 Red Hat Enterprise Linux派生ディストリビューションのAnsibleレシピ
 
-コンピューターを使う上での最低限の作業環境構築、PXEサーバー(Kickstart使用)の構築、Rubyインストール、Serverspecによるインフラストラクチャのテストを収録
+ドットファイルの用意、作業ディレクトリ構築、PXEサーバー(Kickstart使用)の構築、Rubyインストール、Serverspecによるインフラストラクチャのテストなどを収録
 
 - 言語: **YAML**
 - 成果物: **Ansibleレシピ**
