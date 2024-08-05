@@ -12,8 +12,6 @@ Red Hat Enterprise Linux派生ディストリビューションの設定集、�
 
 ユーザー作成から、ファイルサーバー構築、仮想化(コンテナ、KVM、Vagrant)操作、システムバックアップ、リストアなどのシステム管理方法を収録
 
-![Workshop](https://github.com/YumaYX/works/blob/main/images/workshop.gif?raw=true)
-
 - 言語: 日本語、**UNIXシェル**
 - 成果物: **HTML**
 - カテゴリ: **リファレンス**
