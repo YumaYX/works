@@ -12,6 +12,8 @@ Red Hat Enterprise Linux派生ディストリビューションの設定集、�
 
 ユーザー作成から、ファイルサーバー構築、仮想化(コンテナ、KVM、Vagrant)操作、システムバックアップ、リストアなどのシステム管理方法を収録
 
+<https://yumayx.github.io/Workshop/>
+
 - 言語: 日本語、**UNIXシェル**
 - 成果物: **HTML**
 - カテゴリ: **リファレンス**
@@ -21,6 +23,8 @@ Red Hat Enterprise Linux派生ディストリビューションの設定集、�
 Red Hat Enterprise Linux派生ディストリビューションのAnsibleレシピ：自動でインフラストラクチャの構築を行う
 
 ドットファイルの用意、作業ディレクトリの構築、PXEサーバー(Kickstart使用)の構築、Rubyのインストール、Serverspecによるインフラストラクチャテストなどを収録
+
+<https://github.com/YumaYX/init>
 
 - 言語: **YAML**
 - 成果物: **Ansibleレシピ**
