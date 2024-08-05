@@ -15,7 +15,7 @@ Red Hat Enterprise Linux派生ディストリビューションの設定集、�
 - 言語: 日本語、**UNIXシェル**
 - 成果物: **HTML**
 - カテゴリ: **リファレンス**
-- リンク: <https://yumayx.github.io/Workshop/>
+- URL: <https://yumayx.github.io/Workshop/>
 
 ## [init](https://github.com/YumaYX/init)
 
@@ -26,7 +26,7 @@ Red Hat Enterprise Linux派生ディストリビューションのAnsibleレシ�
 - 言語: **YAML**
 - 成果物: **Ansibleレシピ**
 - カテゴリ: **ユーティリティ**
-- リンク: <https://github.com/YumaYX/init>
+- URL: <https://github.com/YumaYX/init>
 
 # プログラミング
 
@@ -45,7 +45,7 @@ irb(main):002>
 - 言語: **Ruby**
 - 成果物: **RubyGem**
 - カテゴリ: **効率化**
-- リンク: <https://yumayx.github.io/YS1/>
+- URL: <https://yumayx.github.io/YS1/>
 
 # アプリケーション
 
@@ -58,7 +58,7 @@ rbenvで管理するRubyのバージョンをmacOSのメニューバーに表示
 - 言語: **Swift**
 - 成果物: **macOS App**
 - カテゴリ: **ユーティリティ**
-- リンク: <https://github.com/YumaYX/RubyIconMenuBar>
+- URL: <https://github.com/YumaYX/RubyIconMenuBar>
 
 ## [Y803](https://github.com/YumaYX/Y803)
 
@@ -71,7 +71,7 @@ rbenvで管理するRubyのバージョンをmacOSのメニューバーに表示
 - 言語: **Swift**
 - 成果物: **macOS App**
 - カテゴリ: **ユーティリティ**
-- リンク: <https://github.com/YumaYX/Y803>
+- URL: <https://github.com/YumaYX/Y803>
 
 # その他
 
@@ -82,4 +82,5 @@ rbenvで管理するRubyのバージョンをmacOSのメニューバーに表示
 - 言語: 日本語/英語
 - 成果物: **HTML**
 - カテゴリ: **リファレンス**
-- リンク: <https://yumayx.github.io/docs/>
+- URL: <https://yumayx.github.io/docs/>
+
