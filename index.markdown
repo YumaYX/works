@@ -16,6 +16,8 @@ Red Hat Enterprise Linux派生ディストリビューションの設定集、�
 - 成果物: **HTML**
 - カテゴリ: **リファレンス**
 
+---
+
 ## [init](https://github.com/YumaYX/init)
 
 Red Hat Enterprise Linux派生ディストリビューションのAnsibleレシピ：自動でインフラストラクチャの構築を行う
