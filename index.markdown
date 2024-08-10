@@ -2,7 +2,7 @@
 layout: default
 ---
 
-作品集 - YumaSATO
+作品集 - [YumaSATO](https://github.com/YumaYX)
 
 # インフラストラクチャ
 
