@@ -26,7 +26,7 @@ Red Hat Enterprise Linux派生ディストリビューションの設定集、�
 
 ##### URL
 
-<https://yumayx.github.io/Workshop/>
+- <https://yumayx.github.io/Workshop/>
 
 ## [init](https://github.com/YumaYX/init)
 
@@ -47,7 +47,7 @@ Red Hat Enterprise Linux派生ディストリビューションのAnsibleレシ�
 
 ##### URL
 
-<https://github.com/YumaYX/init>
+- <https://github.com/YumaYX/init>
 
 # プログラミング
 
@@ -74,7 +74,7 @@ irb(main):002>
 
 ##### URL
 
-<https://yumayx.github.io/YS1/>
+- <https://yumayx.github.io/YS1/>
 
 # アプリケーション
 
@@ -93,7 +93,7 @@ rbenvで管理するRubyのバージョンをmacOSのメニューバーに表示
 
 ##### URL
 
-<https://github.com/YumaYX/RubyIconMenuBar>
+- <https://github.com/YumaYX/RubyIconMenuBar>
 
 ## [Y803](https://github.com/YumaYX/Y803)
 
@@ -112,7 +112,7 @@ rbenvで管理するRubyのバージョンをmacOSのメニューバーに表示
 
 ##### URL
 
-<https://github.com/YumaYX/Y803>
+- <https://github.com/YumaYX/Y803>
 
 # その他
 
@@ -133,5 +133,5 @@ rbenvで管理するRubyのバージョンをmacOSのメニューバーに表示
 
 ##### URL
 
-<https://yumayx.github.io/docs/>
+- <https://yumayx.github.io/docs/>
 
