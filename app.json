@@ -10,7 +10,7 @@
         },
         "init":{
             "description":"Red Hat Enterprise Linux派生ディストリビューションのAnsibleレシピ",
-            "items":["ドットファイルインストール","作業ディレクトリ作成","PXEサーバー(Kickstart使用)構築","Rubyインストール","Serverspecによるインフラストラクチャ自動テスト"],
+            "items":["ドットファイルインストール","PXEサーバー構築(Kickstart使用)","Rubyインストール","Serverspecによるインフラストラクチャ自動テスト"],
             "url":"https://github.com/YumaYX/init",
             "lang":"YAML",
             "output":"Ansibleレシピ",
@@ -39,7 +39,7 @@
             "category":"ユーティリティ"
         },
         "Y803":{
-            "description":"再生中の曲名、アーティスト名をMacOSのメニューバーに表示するアプリケーション、標準ミュージックアプリ、Spotifyに対応",
+            "description":"再生中の曲名、アーティスト名をMacOSのメニューバーに表示するアプリケーション:標準ミュージックアプリ、Spotifyに対応",
             "items":[],
             "image":"https://github.com/YumaYX/Y803/blob/main/image/ScreenShot.png?raw=true",
             "url":"https://github.com/YumaYX/Y803",
