@@ -16,7 +16,7 @@ Red Hat Enterprise Linux派生ディストリビューションの設定集、�
 - システムバックアップ、リストア
 - システム管理方法
 
----
+##### 分類
 
 - 言語: 日本語、**UNIXシェル**
 - 成果物: **HTML**
@@ -27,12 +27,14 @@ Red Hat Enterprise Linux派生ディストリビューションの設定集、�
 
 Red Hat Enterprise Linux派生ディストリビューションのAnsibleレシピ：自動でインフラストラクチャの構築を行う
 
-- コンテンツ
-  - ドットファイルの用意
-  - 作業ディレクトリ作成
-  - PXEサーバー(Kickstart使用)構築
-  - Rubyインストール
-  - Serverspecによるインフラストラクチャ自動テスト
+- ドットファイルのインストール
+- 作業ディレクトリ作成
+- PXEサーバー(Kickstart使用)構築
+- Rubyインストール
+- Serverspecによるインフラストラクチャ自動テスト
+
+##### 分類
+
 - 言語: **YAML**
 - 成果物: **Ansibleレシピ**
 - カテゴリ: **ユーティリティ**
@@ -50,10 +52,12 @@ irb(main):001> require 'ys1'
 irb(main):002> 
 ```
 
-- コンテンツ
-  - テキスト操作
-  - CSV操作
-  - 自動テスト
+- テキスト操作
+- CSV操作
+- 自動テスト
+
+##### 分類
+
 - 言語: **Ruby**
 - 成果物: **RubyGem**
 - カテゴリ: **効率化**
@@ -66,6 +70,8 @@ irb(main):002>
 rbenvで管理するRubyのバージョンをmacOSのメニューバーに表示するアプリケーション
 
 ![RubyIconMenuBar](https://github.com/YumaYX/RubyIconMenuBar/blob/main/sample.png?raw=true)
+
+##### 分類
 
 - 言語: **Swift**
 - 成果物: **macOS App**
@@ -80,6 +86,8 @@ rbenvで管理するRubyのバージョンをmacOSのメニューバーに表示
 
 ![Y803](https://github.com/YumaYX/Y803/blob/main/image/ScreenShot.png?raw=true)
 
+##### 分類
+
 - 言語: **Swift**
 - 成果物: **macOS App**
 - カテゴリ: **ユーティリティ**
@@ -89,12 +97,14 @@ rbenvで管理するRubyのバージョンをmacOSのメニューバーに表示
 
 ## [docs](https://yumayx.github.io/docs/)
 
-開発用ドキュメント、チートシート、UNIXコマンド集
+開発用ドキュメント
 
-- コンテンツ
-  - UNIXコマンド
-  - テック検証記録
-  - チートシート
+- UNIXコマンド
+- テック検証記録
+- クイックリファレンス
+
+##### 分類
+
 - 言語: 日本語/英語
 - 成果物: **HTML**
 - カテゴリ: **リファレンス**
