@@ -43,22 +43,12 @@ body {
   padding-left: 0.5cm;
 }
 
-.cchild h2 a{
+a{
   text-decoration: none;
   color: #000;
 }
 
-.cchild h2 a:hover{
-text-decoration: underline;
-color: #000;
-}
-
-.container h1 a{
-text-decoration: none;
-color: #000;
-}
-
-.container h1 a:hover{
+a:hover{
 text-decoration: underline;
 color: #000;
 }
