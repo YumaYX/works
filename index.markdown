@@ -19,10 +19,11 @@ Red Hat Enterprise Linux派生ディストリビューションの設定集、�
 
 ##### 分類
 
-- 言語: 日本語、**UNIXシェル**
-- 成果物: **HTML**
-- カテゴリ: **リファレンス**
-- URL: <https://yumayx.github.io/Workshop/>
+| --- | --- |
+| 言語 | 日本語、**UNIXシェル** |
+| 成果物 | **HTML** |
+| カテゴリ | **リファレンス** | 
+| URL | <https://yumayx.github.io/Workshop/> |
 
 ## [init](https://github.com/YumaYX/init)
 
