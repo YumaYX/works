@@ -13,6 +13,14 @@ body {
   border-radius: 15px;
 }
 
+.headfoot {
+  width: 90%;
+  margin: 0 auto 1cm;
+  max-width: 1000px;
+  overflow-wrap: break-word;
+  justify-content: center;
+}
+
 .pparent {
   width: 90%;
   max-width: 1000px;
