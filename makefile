@@ -5,7 +5,7 @@ install:
 	bundle install
 
 pub:
-	rm index.markdown
+	-rm index.markdown
 	git status
 	sleep 5
 	git add .
