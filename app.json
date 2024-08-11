@@ -1,0 +1,62 @@
+{
+    "インフラストラクチャ":{
+        "Workshop":{
+            "description":"Red Hat Enterprise Linux派生ディストリビューションの設定集",
+            "items":["システム管理方法","ファイルサーバー構築（Samba、NFS）","ディスク拡張","仮想化（コンテナ、KVM、Vagrant）","システムバックアップ・リストア"],
+            "url":"https://yumayx.github.io/Workshop/",
+            "lang":"日本語、UNIXシェル",
+            "output":"HTML",
+            "category":"リファレンス"
+        },
+        "init":{
+            "description":"Red Hat Enterprise Linux派生ディストリビューションのAnsibleレシピ",
+            "items":["ドットファイルインストール","作業ディレクトリ作成","PXEサーバー(Kickstart使用)構築","Rubyインストール","Serverspecによるインフラストラクチャ自動テスト"],
+            "url":"https://github.com/YumaYX/init",
+            "lang":"YAML",
+            "output":"Ansibleレシピ",
+            "category":"ユーティリティ"
+        }
+    },
+    "プログラミング":{
+        "YS1":{
+            "description":"プログラミング言語Rubyを使用したAPI、コンセプト",
+            "items":["テキスト操作","CSV操作","自動テスト"],
+            "url":"https://yumayx.github.io/YS1/",
+            "lang":"Ruby",
+            "output":"RubyGem",
+            "category":"効率化"
+        }
+    },
+
+    "アプリケーション":{
+        "RubyIconMenuBar":{
+            "description":"rbenvで管理するRubyのバージョンをmacOSのメニューバーに表示するアプリケーション",
+            "items":[],
+            "image":"https://github.com/YumaYX/RubyIconMenuBar/blob/main/sample.png?raw=true",
+            "url":"https://github.com/YumaYX/RubyIconMenuBar",
+            "lang":"Swift",
+            "output":"macOS App",
+            "category":"ユーティリティ"
+        },
+        "Y803":{
+            "description":"再生中の曲名、アーティスト名をMacOSのメニューバーに表示するアプリケーション、標準ミュージックアプリ、Spotifyに対応",
+            "items":[],
+            "image":"https://github.com/YumaYX/Y803/blob/main/image/ScreenShot.png?raw=true",
+            "url":"https://github.com/YumaYX/Y803",
+            "lang":"Swift",
+            "output":"macOS App",
+            "category":"ユーティリティ"
+        }
+    },
+
+    "その他":{
+        "docs":{
+            "description":"開発用ドキュメント",
+            "items":["UNIXコマンド","テック検証記録","クイックリファレンス"],
+            "url":"https://yumayx.github.io/docs/",
+            "lang":"日本語/英語",
+            "output":"HTML",
+            "category":"リファレンス"
+        }
+    }
+}
