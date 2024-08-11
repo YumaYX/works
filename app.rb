@@ -7,7 +7,7 @@ def cchild(project)
 
   doc = <<~CHILD
   <div class="cchild">
-  <h2 id="#{name}"><a href="#{info["url"]}">#{name}</a></h2>
+  <h1 id="#{name}"><a href="#{info["url"]}">#{name}</a></h1>
   <hr />
   <p>#{info["description"]}</p>
   CHILD
@@ -38,7 +38,7 @@ end
 def pparent(theme, projects)
   doc = <<~PARENT
   <div class="pparent">
-  <h1 id="#{theme}">#{theme}</h1>
+  <h2 id="#{theme}">#{theme}</h2>
   PARENT
   projects.each do |project|
     doc = doc + cchild(project)

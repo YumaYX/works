@@ -9,10 +9,11 @@ body {
   background-color: rgb(253, 253, 253);
   margin: 0;
   padding: 0;
+  background-image: repeating-linear-gradient( 0deg,rgb(245, 245, 245) 0px 2px,	transparent 2px 4px)
 }
 
 .container {
-  background-color: rgb(238, 238, 238);
+  background-color: rgb(240, 240, 240);
   width: 80%;
   margin: 1cm auto 1cm;
   padding: 1cm;
@@ -39,8 +40,12 @@ body {
   justify-content: center;
 }
 
-.pparent h1{
+.pparent h2{
   padding-left: 0.5cm;
+}
+
+.cchild h2{
+  padding-left: 0cm;
 }
 
 a{
@@ -54,7 +59,7 @@ color: #000;
 }
 
 .cchild {
-  background-color: rgb(253, 253, 253);
+  background-color: rgb(252, 253, 254);
   width: 80%;
   max-width: 800px;
   padding: 0.5cm 1cm 1cm;
