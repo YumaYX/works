@@ -1,4 +1,5 @@
 s:	install
+	ruby app.rb
 	bundle exec jekyll server -H 0.0.0.0 -P 4003
 
 install:
