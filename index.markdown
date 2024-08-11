@@ -102,7 +102,9 @@ URL: <https://github.com/YumaYX/RubyIconMenuBar>
 | 成果物 | **macOS App** |
 | カテゴリ | **ユーティリティ** |
 
-URL: <https://github.com/YumaYX/Y803>
+##### URL
+
+- <https://github.com/YumaYX/Y803>
 
 # その他
 
