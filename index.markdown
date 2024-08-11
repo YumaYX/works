@@ -8,13 +8,14 @@ layout: default
 
 ## [Workshop](https://yumayx.github.io/Workshop/)
 
-Red Hat Enterprise Linux派生ディストリビューションの設定集、検証の記録、UNIXコマンド集
+Red Hat Enterprise Linux派生ディストリビューションの設定集、技術検証の記録、UNIXコマンド集
 
-- ユーザー作成
-- ファイルサーバー構築
-- 仮想化(コンテナ、KVM、Vagrant)
-- システムバックアップ、リストア
 - システム管理方法
+- ユーザー作成
+- ディスク拡張
+- ファイルサーバー構築（Samba、NFS）
+- 仮想化（コンテナ、KVM、Vagrant）
+- システムバックアップ・リストア
 
 ##### 分類
 
