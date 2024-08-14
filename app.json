@@ -27,7 +27,7 @@
   },
   "プログラミング": {
     "YS1": {
-      "description": "プログラミング言語Rubyを使用したAPI、コンセプト",
+      "description": "プログラミング言語Rubyを使用したコンセプトAPI",
       "items": [
         "テキスト操作",
         "CSV操作",
