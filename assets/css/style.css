@@ -9,14 +9,14 @@ body {
   background-color: rgb(253, 253, 253);
   margin: 0;
   padding: 0;
-  background-image: repeating-linear-gradient( 0deg,rgb(250, 250, 250) 0px 2px,	transparent 2px 4px)
+  background-image: repeating-linear-gradient( 0deg,rgb(244, 244, 244) 0px 2px,	transparent 2px 4px)
 }
 
 .container {
-  background-color: rgb(237, 237, 237);
+  background-color: rgb(240, 240, 240);
   width: 80%;
-  margin: 1cm auto 1cm;
-  padding: 1cm;
+  margin: 0.5cm auto 1cm;
+  padding: 0.3cm 1cm 0.5cm 1cm;
   justify-content: center;
   border-radius: 15px;
 }
@@ -34,7 +34,7 @@ body {
   max-width: 1000px;
   margin: 0 auto 1cm;
   padding: 0cm;
-  border: 2px solid #000;
+  border: 2px solid #000000;
   border-radius: 15px;
   overflow-wrap: break-word;
   justify-content: center;
@@ -44,7 +44,7 @@ body {
   padding-left: 0.5cm;
 }
 
-a{
+a {
   text-decoration: none;
   color: #000;
 }
@@ -54,15 +54,20 @@ text-decoration: underline;
 color: #000;
 }
 
+.url {
+  text-decoration: underline;
+}
+
 .cchild {
   background-color: rgb(252, 253, 254);
   width: 80%;
   max-width: 800px;
   padding: 0.5cm 1cm 1cm;
   margin: 0 auto;
-  margin-bottom: 1cm;
+  margin-bottom: 0.8cm;
   overflow-wrap: break-word;
   border-radius: 15px;
+  border: 1px solid rgb(235, 235, 235);
 }
 
 .resizeimage img { max-width: 100%; }

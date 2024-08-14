@@ -27,7 +27,7 @@ def cchild(project)
   <tr><td>言語</td><td>#{info["lang"]}</td></tr>
   <tr><td>成果物</td><td>#{info["output"]}</td></tr>
   <tr><td>カテゴリ</td><td>#{info["category"]}</td></tr>
-  <tr><td>URL</td><td><a href="#{info["url"]}">#{info["url"]}</a></td></tr>
+  <tr><td>URL</td><td><a class= "url" href="#{info["url"]}">#{info["url"]}</a></td></tr>
   </tbody>
   </table>
 
