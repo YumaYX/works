@@ -50,7 +50,7 @@
       "category": "ユーティリティ"
     },
     "Y803": {
-      "description": "再生中の曲名、アーティスト名をMacOSのメニューバーに表示するアプリケーション",
+      "description": "再生中の曲名、アーティスト名をmacOSのメニューバーに表示するアプリケーション",
       "items": [],
       "image": "https://github.com/YumaYX/Y803/blob/main/image/ScreenShot.png?raw=true",
       "url": "https://github.com/YumaYX/Y803",
