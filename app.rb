@@ -53,7 +53,7 @@ layout: custom
 
 <!-- head -->
 <div class="headfoot">
-<h1><a href="https://yumayx.github.io/works/">Works</a></h1>
+<h1>Works</h1>
 <p>作品集 - <a href="https://github.com/YumaYX">YumaSATO</a></p>
 </div>
 HEAD
