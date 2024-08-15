@@ -67,7 +67,7 @@ color: #000;
   margin-bottom: 0.8cm;
   overflow-wrap: break-word;
   border-radius: 15px;
-  border: 1px solid rgb(0, 0, 0);
+  border: 2px solid rgb(0, 0, 0);
 }
 
 .resizeimage img { max-width: 100%; }
