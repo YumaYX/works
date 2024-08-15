@@ -1,3 +1,8 @@
+html {
+  text-size-adjust:100%;
+  -webkit-text-size-adjust:100%;
+ }
+
 * {
   font-family: "Noto Sans JP", sans-serif;
   font-optical-sizing: auto;
