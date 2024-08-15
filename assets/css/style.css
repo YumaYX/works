@@ -35,21 +35,21 @@ body {
   justify-content: center;
 }
 
+.headfoot p {
+  color: #a1a1a1;
+}
+
 .pparent {
   width: 90%;
   max-width: 800px;
   min-width: 800px;
 
-  margin: 0 auto 1cm;
+  margin: 0 auto 0cm;
   padding: 0cm;
   border: 0px solid #fcfcfc;
   border-radius: 15px;
   overflow-wrap: break-word;
   justify-content: center;
-}
-
-.pparent h2{
-  padding-left: 1cap;
 }
 
 a {

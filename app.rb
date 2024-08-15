@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 require 'json'
 
-def cchild(project)
+def cchild(project, theme)
   name = project.first
   info = project.last
 
@@ -24,9 +24,9 @@ def cchild(project)
   doc + <<~CHILD
   <table>
   <tbody>
-  <tr><td>言語</td><td>#{info["lang"]}</td></tr>
+  <tr><td>カテゴリ</td><td>#{theme}</td></tr>
   <tr><td>成果物</td><td>#{info["output"]}</td></tr>
-  <tr><td>カテゴリ</td><td>#{info["category"]}</td></tr>
+  <tr><td>言語</td><td>#{info["lang"]}</td></tr>
   <tr><td>URL</td><td><a class= "url" href="#{info["url"]}">#{info["url"]}</a></td></tr>
   </tbody>
   </table>
@@ -38,10 +38,9 @@ end
 def pparent(theme, projects)
   doc = <<~PARENT
   <div class="pparent">
-  <h2 id="#{theme}">#{theme}</h2>
   PARENT
   projects.each do |project|
-    doc = doc + cchild(project)
+    doc = doc + cchild(project, theme)
   end
   doc + '</div>'
 end
@@ -53,8 +52,7 @@ layout: custom
 
 <!-- head -->
 <div class="headfoot">
-<h1>Works</h1>
-<p>作品集 - <a href="https://github.com/YumaYX">YumaSATO</a></p>
+<h1>作品集 - <a href="https://github.com/YumaYX">YumaSATO</a></h1>
 </div>
 HEAD
 
@@ -67,7 +65,7 @@ end
 doc = doc + <<~'FOOT'
 <!-- foot -->
 <div class="headfoot">
-<small>&copy; YumaSATO</small>
+<p align="center"><small>&copy; YumaSATO</small></p>
 </div>
 FOOT
 
