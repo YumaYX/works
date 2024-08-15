@@ -36,13 +36,11 @@ def cchild(project, theme)
 end
 
 def pparent(theme, projects)
-  doc = <<~PARENT
-  <div class="pparent">
-  PARENT
+  doc = ''
   projects.each do |project|
     doc = doc + cchild(project, theme)
   end
-  doc + '</div>'
+  doc
 end
 
 doc = <<~'HEAD'
