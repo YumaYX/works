@@ -30,7 +30,6 @@ def cchild(project, theme)
   <tr><td>URL</td><td><a class= "url" href="#{info["url"]}">#{info["url"]}</a></td></tr>
   </tbody>
   </table>
-
   </div>
   CHILD
 end
