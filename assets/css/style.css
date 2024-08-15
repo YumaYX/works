@@ -31,6 +31,10 @@ body {
   border-radius: 15px;
 }
 
+.container h1 {
+  margin-left: 2cap;
+}
+
 .headfoot {
   width: 90%;
   margin: 0 auto 1cm;
@@ -84,6 +88,7 @@ color: #000;
 }
 
 .cchild h1{
+  margin: auto;
   margin-bottom: -5px;
 }
 
