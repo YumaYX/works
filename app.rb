@@ -8,7 +8,7 @@ def cchild(project)
   doc = <<~CHILD
   <div class="cchild">
   <h1 id="#{name}"><a href="#{info["url"]}">#{name}</a></h1>
-
+  <hr />
   <p>#{info["description"]}</p>
   CHILD
 

@@ -1,5 +1,5 @@
 {
-  "インフラストラクチャ": {
+  "Infrastructure": {
     "Workshop": {
       "description": "Red Hat Enterprise Linux派生ディストリビューションの設定集",
       "items": [
@@ -25,7 +25,7 @@
       "category": "ユーティリティ"
     }
   },
-  "プログラミング": {
+  "Programming": {
     "YS1": {
       "description": "プログラミング言語Rubyを使用したコンセプトAPI",
       "items": [
@@ -39,7 +39,7 @@
       "category": "効率化"
     }
   },
-  "アプリケーション": {
+  "Application": {
     "RubyIconMenuBar": {
       "description": "rbenvで管理するRubyのバージョンをmacOSのメニューバーに表示するアプリケーション",
       "items": [],
@@ -59,7 +59,7 @@
       "category": "ユーティリティ"
     }
   },
-  "その他": {
+  "Other": {
     "docs": {
       "description": "開発用ドキュメント",
       "items": [
