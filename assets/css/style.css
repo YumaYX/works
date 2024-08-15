@@ -13,10 +13,15 @@ body {
 }
 
 .container {
-  background-color: rgb(240, 240, 240);
-  width: 80%;
-  margin: 0.5cm auto 1cm;
-  padding: 0.3cm 1cm 0.5cm 1cm;
+  background-color: rgb(241, 241, 241);
+  width: 65%;
+  min-width: 800px;
+  margin: auto;
+  margin-top: 1cap;
+  margin-bottom: 2cap;
+  padding: auto;
+  padding-top: 1cap;
+  padding-bottom: 1cap;
   justify-content: center;
   border-radius: 15px;
 }
@@ -24,14 +29,17 @@ body {
 .headfoot {
   width: 90%;
   margin: 0 auto 1cm;
-  max-width: 1000px;
+  max-width: 800px;
+  min-width: 800px;
   overflow-wrap: break-word;
   justify-content: center;
 }
 
 .pparent {
   width: 90%;
-  max-width: 1000px;
+  max-width: 800px;
+  min-width: 800px;
+
   margin: 0 auto 1cm;
   padding: 0cm;
   border: 0px solid #fcfcfc;
@@ -41,7 +49,7 @@ body {
 }
 
 .pparent h2{
-  padding-left: 0.5cm;
+  padding-left: 1cap;
 }
 
 a {
@@ -60,14 +68,14 @@ color: #000;
 
 .cchild {
   background-color: rgb(253, 254, 254);
-  width: 80%;
-  max-width: 800px;
+  width: 90%;
+  max-width: 600px;
   padding: 0.5cm 1cm 1cm;
   margin: 0 auto;
-  margin-bottom: 0.8cm;
+  margin-bottom: 5cap;
   overflow-wrap: break-word;
   border-radius: 15px;
-  border: 2px solid rgb(0, 0, 0);
+  border: 3px solid rgb(0, 0, 0);
 }
 
 .resizeimage img { max-width: 100%; }
