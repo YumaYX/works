@@ -71,7 +71,7 @@ color: #000;
   margin-bottom: 0.7cm;
   overflow-wrap: break-word;
   border-radius: 15px;
-  border: 3px solid rgb(0, 0, 0);
+  border: 0.7px solid rgb(0, 0, 0);
 }
 
 .cchild h1{
