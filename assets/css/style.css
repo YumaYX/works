@@ -10,6 +10,10 @@ html {
   font-style: normal;
 }
 
+b {
+  font-style: bold;
+}
+
 body {
   background-color: rgb(253, 253, 253);
   margin: 0;
