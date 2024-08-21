@@ -42,12 +42,11 @@ body {
   min-width: 800px;
   overflow-wrap: break-word;
   justify-content: center;
-  padding: auto 3cap;
 }
 
 .headfoot p {
   max-width: 600px;
-  margin: auto;
+  margin: 0 auto ;
 }
 
 a {
