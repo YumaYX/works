@@ -35,7 +35,7 @@ def cchild(project, theme)
 end
 
 def pparent(theme, projects)
-  doc = '<p><b>キーワード：</b>システム管理方法論 / RHEL / Ansible / Ruby / デジタル化 / 自動化 / 自動テスト / 再現性</p>'
+  doc = ''
   projects.each do |project|
     doc = doc + cchild(project, theme)
   end
@@ -50,6 +50,8 @@ layout: custom
 <!-- head -->
 <div class="headfoot">
 <h1>作品集 - <a href="https://github.com/YumaYX">YumaSATO</a></h1>
+
+<p><b>キーワード：</b>システム管理方法論 / RHEL / Ansible / Ruby / デジタル化 / 自動化 / 自動テスト / 再現性</p>
 
 </div>
 HEAD
