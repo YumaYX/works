@@ -51,7 +51,7 @@ layout: custom
 <div class="headfoot">
 <h1>作品集 - <a href="https://github.com/YumaYX">YumaSATO</a></h1>
 
-<p>キーワード：システム管理方法論 / RHEL / Ansible / Ruby / デジタル化 / 自動化 / 自動テスト / 再現性</p>
+<p><b>キーワード：</b>システム管理方法論 / RHEL / Ansible / Ruby / デジタル化 / 自動化 / 自動テスト / 再現性</p>
 
 </div>
 HEAD
