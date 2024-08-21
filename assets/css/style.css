@@ -47,6 +47,7 @@ body {
 
 .headfoot p {
   max-width: 600px;
+  margin: auto;
 }
 
 a {
