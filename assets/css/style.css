@@ -45,7 +45,8 @@ body {
 }
 
 .headfoot p {
-  color: #a1a1a1;
+  color: #000;
+  margin-left: 2cap;
 }
 
 a {
