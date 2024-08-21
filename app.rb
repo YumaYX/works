@@ -1,5 +1,6 @@
 #!/usr/bin/env ruby
 require 'json'
+require 'date'
 
 def cchild(project, theme)
   name = project.first
@@ -62,10 +63,13 @@ content_data.each do |theme, projects|
   doc = doc + pparent(theme, projects)
 end
 
-doc = doc + <<~'FOOT'
+today = Date.today
+year = today.strftime("%Y")
+
+doc = doc + <<~FOOT
 <!-- foot -->
 <div class="headfoot">
-<p align="center"><small>&copy; YumaSATO</small></p>
+<p align="center"><small>&copy; #{year} YumaSATO</small></p>
 </div>
 FOOT
 
