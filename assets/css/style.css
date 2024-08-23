@@ -89,3 +89,10 @@ color: #000;
 hr {
   border: 0.7px solid #000;
 }
+
+.terms {
+  font-size: small;
+  border: none;
+  background-color: none;
+  color: #ccc;
+}
