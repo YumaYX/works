@@ -91,10 +91,11 @@ hr {
 }
 
 .tterms {
+  margin-top: 1cap;
   font-size: xx-small;
   border: none;
   background-color: transparent;
-  color: #ccc;
+  color: #bbb;
 }
 
 td {
