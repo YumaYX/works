@@ -1,4 +1,4 @@
-no nohtml {
+html {
   text-size-adjust:100%;
   -webkit-text-size-adjust:100%;
  }
@@ -91,7 +91,7 @@ hr {
 }
 
 .tterms {
-  margin-top: 1cap;
+  margin-top: none;
   font-size: xx-small;
   border: none;
   background-color: transparent;
