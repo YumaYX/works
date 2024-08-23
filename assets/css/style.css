@@ -1,4 +1,4 @@
-html {
+no nohtml {
   text-size-adjust:100%;
   -webkit-text-size-adjust:100%;
  }
@@ -95,5 +95,8 @@ hr {
   border: none;
   background-color: transparent;
   color: #ccc;
-  vertical-align: top;
+}
+
+td {
+    vertical-align: top;
 }
