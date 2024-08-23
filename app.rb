@@ -72,7 +72,7 @@ content_data.each do |theme, projects|
   doc = doc + pparent(theme, projects)
 end
 
-doc = doc + "<div class=\"cchild tterms\"><table><tbody>#{terms.join}</tbody></table></div>"
+doc = doc + "<div class=\"cchild tterms\"><h5>用語</h5><table><tbody>#{terms.join}</tbody></table></div>"
 
 today = Date.today
 year = today.strftime("%Y")
