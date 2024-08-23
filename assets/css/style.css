@@ -93,6 +93,6 @@ hr {
 .tterms {
   font-size: small;
   border: none;
-  background-color: none;
+  background-color: transparent;
   color: #ccc;
 }
