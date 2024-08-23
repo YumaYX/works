@@ -100,5 +100,9 @@ hr {
 }
 
 td {
-    vertical-align: top;
+  vertical-align: top;
+}
+
+h5 {
+  font-size: auto;
 }
