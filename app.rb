@@ -43,6 +43,13 @@ def pparent(theme, projects)
   doc
 end
 
+def terms
+  terms = File.open('keywords.json') {|j| JSON.load(j)}
+  terms.sort.map do |key, value|
+    "<tr><td>#{key}</td><td>#{value}</td></tr>"
+  end
+end
+
 keywords = File.open('keywords.json') {|j| JSON.load(j)}
 
 doc = <<~HEAD
@@ -64,6 +71,8 @@ content_data = File.open('app.json') {|j| JSON.load(j)}
 content_data.each do |theme, projects|
   doc = doc + pparent(theme, projects)
 end
+
+doc = doc + "<table><tbody>#{terms.join}</tbody></table>"
 
 today = Date.today
 year = today.strftime("%Y")
