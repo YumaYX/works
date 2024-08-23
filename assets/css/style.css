@@ -91,8 +91,9 @@ hr {
 }
 
 .tterms {
-  font-size: small;
+  font-size: xx-small;
   border: none;
   background-color: transparent;
   color: #ccc;
+  vertical-align: top;
 }
