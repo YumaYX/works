@@ -46,7 +46,7 @@ end
 def terms
   terms = File.open('terms.json') {|j| JSON.load(j)}
   terms.sort.map do |key, value|
-    "<tr><td>#{key}</td><td>#{value}</td></tr>"
+    "<tr><td>#{key}:</td><td>#{value}</td></tr>"
   end
 end
 
