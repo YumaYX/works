@@ -4,5 +4,7 @@
     "Red Hat Enterprise Linux（RHEL）":"アメリカの企業レッドハット（Red Hat）が開発・提供する商用のLinuxディストリビューション",
     "AlmaLinux / Rocky Linux":"Red Hat Enterprise Linux（RHEL）のクローンであるオープンソースのLinuxディストリビューション",
   "PXEサーバー（Preboot eXecution Environmentサーバー）":"ネットワーク経由でコンピュータを起動（ブート）させるためのサーバー",
-    "Serverspec":"RubyのRSpecを使ってサーバーの設定や状態を自動でテストするツール"
+    "Serverspec":"RubyのRSpecを使ってサーバーの設定や状態を自動でテストするツール",
+    "Ansible":"サーバーやアプリケーションの設定や管理を自動化するためのオープンソースの構成管理ツール",
+    "RubyGem":"Rubyプログラミング言語用のパッケージ管理システムで、ライブラリやアプリケーションの配布、管理を容易にするツール"
 }
