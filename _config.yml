@@ -15,6 +15,7 @@ exclude:
   - makefile
   - mkpost
   - .jekyll-cache/
+  - index.html.erb
 #   - .sass-cache/
 #   - gemfiles/
 #   - node_modules/
