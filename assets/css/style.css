@@ -10,15 +10,38 @@ html {
   font-style: normal;
 }
 
-b {
-  font-weight: bold;
-}
-
 body {
   background-color: rgb(253, 253, 253);
   margin: 0;
   padding: 0;
-  background-image: repeating-linear-gradient( 0deg,rgb(244, 244, 244) 0px 2px,	transparent 2px 4px)
+  background-image: repeating-linear-gradient( 0deg,rgb(244, 244, 244) 0px 2px, transparent 2px 4px)
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+a:hover{
+  text-decoration: underline;
+  color: #000;
+}
+
+b {
+  font-weight: bold;
+}
+
+td {
+  vertical-align: top;
+}
+
+hr {
+  border: 0.7px solid #000;
+}
+
+p {
+  max-width: 650px;
+  margin: 0 auto;
 }
 
 .container {
@@ -41,68 +64,42 @@ body {
 
 .headfoot {
   width: 90%;
-  margin: 0 auto 1cm;
+  margin: 0 auto 2em;
   max-width: 800px;
   min-width: 800px;
+  padding: auto;
   overflow-wrap: break-word;
   justify-content: center;
-}
-
-.headfoot p {
-  max-width: 650px;
-  margin: 0 auto ;
-}
-
-a {
-  text-decoration: none;
-  color: #000;
-}
-
-a:hover{
-text-decoration: underline;
-color: #000;
 }
 
 .url {
   text-decoration: underline;
 }
 
-.cchild {
-  background-color: rgb(253, 254, 254);
-  width: 90%;
+.child {
+  width: 80%;
   max-width: 600px;
   padding: 0.5cm 1cm 1cm;
   margin: 0 auto;
-  margin-bottom: 0.7cm;
-  overflow-wrap: break-word;
-  border-radius: 15px;
-  border: 0.7px solid rgb(0, 0, 0);
 }
 
-.cchild h1{
+.child h1{
   margin: auto;
   margin-bottom: -5px;
 }
 
+.works{
+  background-color: rgb(253, 254, 254);
+  border-radius: 15px;
+  border: 0.7px solid rgb(0, 0, 0);
+  margin-bottom: 0.7cm;
+}
+
+.terms {
+  font-size: 12px;
+  color: rgb(165, 165, 165);
+  margin-top: -2em;
+  margin-bottom: 0em;
+}
+
 .resizeimage img { max-width: 100%; }
-
-hr {
-  border: 0.7px solid #000;
-}
-
-.tterms {
-  margin-top: -3cap;
-  margin-bottom: 0cap;
-  font-size: xx-small;
-  border: none;
-  background-color: transparent;
-  color: #bbb;
-}
-
-td {
-  vertical-align: top;
-}
-
-.tterms h5 {
-  font-size: 11px;
-}

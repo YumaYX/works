@@ -6,7 +6,7 @@ layout: custom
 <div class="headfoot">
 <h1>作品集 - <a href="https://github.com/YumaYX">YumaSATO</a></h1>
 <p><b>キーワード：</b><%= @keywords.join("、")%></p>
-</div>
+</div><!-- headfoot -->
 
 
 <!-- content -->
@@ -15,7 +15,7 @@ layout: custom
 <% name = project.first %>
 <% info = project.last %>
 
-<div class="cchild">
+<div class="child works">
 <h1 id="<%= name %>"><a href="<%= info["url"] %>"><%= name %></a></h1>
 <hr />
 <p><%= info["description"] %></p>
@@ -39,20 +39,18 @@ layout: custom
 </table>
 
 </div><!-- child -->
-
 <% end %>
 <% end %>
 
 
 <!-- terms -->
-<div class="cchild tterms">
-<h5>用語</h5>
-<table><tbody>
+<div class="child terms">
+<ul>
  <% @terms.sort.map do |key, value| %>
-    <tr><td><%= key%>:</td><td><%= value %></td></tr>
+    <li><b><%= key%>:</b><%= value %></li>
   <% end %>
-</tbody></table>
-</div><!-- cchild terms -->
+</ul>
+</div><!-- child terms -->
 
 
 <!-- footer -->
