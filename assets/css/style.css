@@ -96,6 +96,7 @@ p {
 }
 
 .terms {
+  max-width: 680px;
   font-size: 12px;
   color: rgb(165, 165, 165);
   margin-top: -2em;
