@@ -2,58 +2,84 @@
 layout: custom
 ---
 
-<!-- head -->
-<div class="headfoot">
-<h1>作品集 - <a href="https://github.com/YumaYX">YumaSATO</a></h1>
-<p><b>キーワード：</b><%= @keywords.join("、")%></p>
-</div><!-- headfoot -->
 
+<div class="container">
+
+
+<p><b>キーワード：</b><%= @keywords.join("、")%></p>
+
+
+<style type="text/css">
+img {
+  width: auto;
+  max-width: 100%;
+}
+</style>
 
 <!-- content -->
 <% @content_data.each do |theme, projects| %>
+
 <% projects.each do |project| %>
-<% name = project.first %>
+  <% name = project.first %>
 <% info = project.last %>
 
-<div class="child works">
-<h1 id="<%= name %>"><a href="<%= info["url"] %>"><%= name %></a></h1>
+<div class="card grey lighten-4">
+<div class="card-content black-text">
+
+<span class="card-title" id="<%= name %>"><%= name %></span>
 <hr />
 <p><%= info["description"] %></p>
     
 <% unless info["items"].nil? %>
+
 <% items = info["items"].map { |item| "<li>#{item}</li>" } %>
 <ul><%= items.join %></ul>
 <% end %>
     
 <% unless info["image"].nil? %>
-<p class="resizeimage"><img src="<%= info["image"] %>" /></p>
+<img src="<%= info["image"] %>" />
 <% end %>
     
 <table>
 <tbody>
-<tr><td>カテゴリ</td><td><%= theme %></td></tr>
 <tr><td>成果物</td><td><%= info["output"] %></td></tr>
 <tr><td>言語</td><td><%= info["lang"] %></td></tr>
-<tr><td>URL</td><td><a class= "url" href="<%= info["url"] %>"><%= info["url"] %></a></td></tr>
+<tr><td>リンク</td>
+<td><a href="<%= info["url"] %>"><%= info["url"] %></a></td>
+</tr>
 </tbody>
 </table>
 
-</div><!-- child -->
+</div>
+</div>
+
 <% end %>
 <% end %>
 
 
-<!-- terms -->
-<div class="child terms">
+
+
+
+</div>
+
+
+
+
+
+
+<footer class="page-footer grey lighten-4">
+<div class="container">
 <ul>
  <% @terms.sort.map do |key, value| %>
-    <li><b><%= key%>:&nbsp;</b><%= value %></li>
+    <li class="grey-text text-darken-5"><b><%= key%>:&nbsp;</b><%= value %></li>
   <% end %>
 </ul>
-</div><!-- child terms -->
+</div>
 
-
-<!-- footer -->
-<div class="headfoot">
-<p align="center"><small>&copy; <%= @year %> YumaSATO</small></p>
-</div><!-- headfoot -->
+<div class="footer-copyright">
+  <div class="container">
+  &copy; <%= @year %> YumaSATO
+  Made by <a class="blue-text text-lighten-3" href="http://materializecss.com">Materialize</a>
+  </div>
+</div>
+</footer>
