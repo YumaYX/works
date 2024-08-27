@@ -10,7 +10,8 @@
       "url": "https://yumayx.github.io/Workshop/",
       "lang": "日本語、UNIXシェル",
       "output": "HTML",
-      "category": "リファレンス"
+      "category": "リファレンス",
+      "icon":"explore"
     },
     "init": {
       "description": "Red Hat Enterprise Linux派生ディストリビューションのAnsibleレシピ",
@@ -22,7 +23,8 @@
       "url": "https://github.com/YumaYX/init",
       "lang": "YAML",
       "output": "Ansibleレシピ",
-      "category": "ユーティリティ"
+      "category": "ユーティリティ",
+      "icon":"build"
     }
   },
   "プログラミング": {
@@ -36,7 +38,8 @@
       "url": "https://yumayx.github.io/YS1/",
       "lang": "Ruby",
       "output": "RubyGem",
-      "category": "効率化"
+      "category": "効率化",
+      "icon":"videogame_asset"
     }
   },
   "アプリケーション": {
@@ -47,7 +50,8 @@
       "url": "https://github.com/YumaYX/RubyIconMenuBar",
       "lang": "Swift",
       "output": "macOS App",
-      "category": "ユーティリティ"
+      "category": "ユーティリティ",
+      "icon":"toys"
     },
     "Y803": {
       "description": "再生中の曲名、アーティスト名をmacOSのメニューバーに表示するアプリケーション",
@@ -56,7 +60,8 @@
       "url": "https://github.com/YumaYX/Y803",
       "lang": "Swift",
       "output": "macOS App",
-      "category": "ユーティリティ"
+      "category": "ユーティリティ",
+      "icon":"library_music"
     }
   },
   "その他": {
@@ -70,7 +75,8 @@
       "url": "https://yumayx.github.io/docs/",
       "lang": "日本語/英語",
       "output": "HTML",
-      "category": "リファレンス"
+      "category": "リファレンス",
+      "icon":"library_books"
     }
   }
 }

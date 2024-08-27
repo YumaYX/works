@@ -2,34 +2,28 @@
 layout: custom
 ---
 
-
 <div class="container">
-
 
 <p><b>キーワード：</b><%= @keywords.join("、")%></p>
 
+<style type="text/css">img {width: auto;max-width: 100%;}</style>
 
-<style type="text/css">
-img {
-  width: auto;
-  max-width: 100%;
-}
-</style>
-
-<!-- content -->
-<% @content_data.each do |theme, projects| %>
-
-<% projects.each do |project| %>
+<% num=1 %>
+<% @content_data.each do |theme, projects| %>  
+    <div class="section">
+    <h5><%= theme %></h5>
+    <div class="row">
+  <% projects.each do |project| %>
   <% name = project.first %>
-<% info = project.last %>
+  <% info = project.last %>
 
-<div class="card grey lighten-4">
-<div class="card-content black-text">
+        <!--   Icon Section   -->
+        <div class="col s12 m6">
+          <div class="icon-block">
+            <h2 class="center grey-text text-darken-4"><i class="large material-icons"><%= info["icon"]%></i></h2>
+            <h4 class="center"><%= name %></h4>
+            <p class="light"><%= info["description"] %></p>
 
-<span class="card-title" id="<%= name %>"><%= name %></span>
-<hr />
-<p><%= info["description"] %></p>
-    
 <% unless info["items"].nil? %>
 
 <% items = info["items"].map { |item| "<li>#{item}</li>" } %>
@@ -39,7 +33,6 @@ img {
 <% unless info["image"].nil? %>
 <img src="<%= info["image"] %>" />
 <% end %>
-    
 <table>
 <tbody>
 <tr><td>成果物</td><td><%= info["output"] %></td></tr>
@@ -50,36 +43,29 @@ img {
 </tbody>
 </table>
 
-</div>
-</div>
+          </div>
+        </div>
 
 <% end %>
+      </div>
+      </div>
 <% end %>
-
-
-
-
 
 </div>
 
 
-
-
-
-
-<footer class="page-footer grey lighten-4">
+<footer class="page-footer amber accent-3">
 <div class="container">
 <ul>
  <% @terms.sort.map do |key, value| %>
-    <li class="grey-text text-darken-5"><b><%= key%>:&nbsp;</b><%= value %></li>
+    <li class="black-text"><b><%= key%>:&nbsp;</b><%= value %></li>
   <% end %>
 </ul>
 </div>
 
 <div class="footer-copyright">
   <div class="container">
-  &copy; <%= @year %> YumaSATO
-  Made by <a class="blue-text text-lighten-3" href="http://materializecss.com">Materialize</a>
+  &copy; <%= @year %> YumaSATO. Made by <a href="http://materializecss.com">Materialize</a>
   </div>
 </div>
 </footer>
