@@ -11,7 +11,7 @@
       "lang": "日本語、UNIXシェル",
       "output": "HTML",
       "category": "リファレンス",
-      "icon":"explore"
+      "icon":"home"
     },
     "init": {
       "description": "Red Hat Enterprise Linux派生ディストリビューションのAnsibleレシピ",
