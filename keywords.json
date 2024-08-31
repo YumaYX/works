@@ -1,13 +1,15 @@
 [
-    "システム管理方法論",
-    "RHEL",
-    "Ansible",
-    "Ruby",
-    "Git",
-    "UNIXシェル",
-    "VBA",
-    "デジタル化",
-    "自動化",
-    "自動テスト",
-    "再現性"
-  ]
+  "システム管理方法論",
+  "Red Hat Enterprise Linux(RHEL)",
+  "Ansible",
+  "Infrastructure as Code(IaC)",
+  "Ruby",
+  "Git",
+  "バージョン管理",
+  "UNIXシェル",
+  "VBA",
+  "デジタル化",
+  "自動化",
+  "自動テスト",
+  "再現性"
+]

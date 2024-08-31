@@ -1,7 +1,7 @@
 {
   "インフラストラクチャー": {
     "Workshop": {
-      "description": "Red Hat Enterprise Linux派生ディストリビューションの設定集",
+      "description": "RHEL派生ディストリビューションの設定集",
       "items": [
         "システム管理方法",
         "AlmaLinux / Rocky Linuxでの設定検証記録",
@@ -14,7 +14,7 @@
       "icon":"home"
     },
     "init": {
-      "description": "Red Hat Enterprise Linux派生ディストリビューションのAnsibleレシピ",
+      "description": "RHEL派生ディストリビューションのAnsibleレシピ",
       "items": [
         "PXEサーバー構築(Kickstart使用)",
         "Rubyインストール",
