@@ -1,73 +1,40 @@
 ---
-layout: custom
+layout: default
 ---
 
-<div class="container">
+## 作品集
 
-<h2 class="center">作品集</h2>
+**キーワード：** <%= @keywords.join("、")%>
 
-<p><b>キーワード：</b><%= @keywords.join("、")%></p>
+<% @content_data.each do |theme, projects| %>
 
-<style type="text/css">img {width: auto;max-width: 100%;}</style>
+#### <%= theme %>
 
-<% num=1 %>
-<% @content_data.each do |theme, projects| %>  
-    <div class="section">
-    <h5><%= theme %></h5>
-    <div class="row">
-  <% projects.each do |project| %>
+<% projects.each do |project| %>
   <% name = project.first %>
   <% info = project.last %>
 
-        <!--   Icon Section   -->
-        <div class="col s12 m6">
-          <div class="icon-block">
-            <!--<h2 class="center grey-text text-darken-4"><i class="large material-icons"><%= info["icon"]%></i></h2>-->
-            <h3><%= name %></h3>
-            <p class="light"><%= info["description"] %></p>
+# [<%= name %>](<%= info["url"] %>)
+
+<%= info["description"] %>
 
 <% unless info["items"].nil? %>
-
-<% items = info["items"].map { |item| "<li>#{item}</li>" } %>
-<ul><%= items.join %></ul>
+<%= info["items"].map { |item| "- #{item}" }.join("\n") %>
 <% end %>
     
 <% unless info["image"].nil? %>
-<img src="<%= info["image"] %>" />
-<% end %>
-<table>
-<tbody>
-<tr><td>成果物</td><td><%= info["output"] %></td></tr>
-<tr><td>言語</td><td><%= info["lang"] %></td></tr>
-<tr><td>リンク</td>
-<td><a href="<%= info["url"] %>"><%= info["url"] %></a></td>
-</tr>
-</tbody>
-</table>
-
-          </div>
-        </div>
-
-<% end %>
-      </div>
-      </div>
+!["<%= name %>"](<%= info["image"] %>)
 <% end %>
 
-</div>
+| --- | --- |
+| 成果物 | <%= info["output"] %> |
+| 言語 | <%= info["lang"] %> |
+| リンク | <<%= info["url"] %>> |
 
+<% end %>
+<% end %>
 
-<footer class="page-footer grey lighten-5">
-<div class="container">
-<ul>
- <% @terms.sort.map do |key, value| %>
-    <li class="black-text"><b><%= key%>:&nbsp;</b><%= value %></li>
-  <% end %>
-</ul>
-</div>
+##### 用語
 
-<div class="footer-copyright">
-  <div class="container">
-  &copy; <%= @year %> YumaSATO / Made by <a href="http://materializecss.com">Materialize</a>
-  </div>
-</div>
-</footer>
+<% @terms.sort.map do |key, value| %>
+- **<%= key %>**:<%= value %><% end %>
