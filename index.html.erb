@@ -8,13 +8,11 @@ layout: default
 
 <% @content_data.each do |theme, projects| %>
 
-#### <%= theme %>
-
 <% projects.each do |project| %>
   <% name = project.first %>
   <% info = project.last %>
 
-# [<%= name %>](<%= info["url"] %>)
+# <%= name %>
 
 <%= info["description"] %>
 
@@ -29,7 +27,7 @@ layout: default
 | --- | --- |
 | 成果物 | <%= info["output"] %> |
 | 言語 | <%= info["lang"] %> |
-| カテゴリ | <%= info["category"] %> |
+| カテゴリ | <%= theme %>・<%= info["category"] %> |
 | リンク | <<%= info["url"] %>> |
 
 <% end %>
